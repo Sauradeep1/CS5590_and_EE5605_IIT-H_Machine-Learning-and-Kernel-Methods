@@ -30,7 +30,7 @@ ii. When C = 0:001, the number of support vectors is lower at Q = 5.
 iii. When C = 0:01, training error is higher at Q = 5.
 iv. When C = 1, test error is lower at Q = 5.
 
-(d) Consider the radial basis function (RBF) kernel K(xn; xm) = e(||xn - xm||^2) in the
+(d) Consider the radial basis function (RBF) kernel K(xn; xm) = e(-||xn - xm||^2) in the
 soft-margin SVM approach. Which value of C 2 f0:01; 1; 100; 104; 106g results in the
 lowest training error? The lowest test error? Show the error values for all the C values.
 Deliverables:

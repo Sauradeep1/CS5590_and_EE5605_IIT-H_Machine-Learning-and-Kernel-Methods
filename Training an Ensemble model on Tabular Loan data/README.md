@@ -28,20 +28,26 @@ Some steps to consider:
 records, or replace the missing value with mean/median of the attribute - this is
 a decision you must make. Please document your decisions/choices in the final
 submitted report.)
+
 • Check whether you really need all the provided attributes, and choose the necessary
 attributes. (You can employ feature selection methods, if you are familiar; if not,
 you can eyeball.)
+
 • Transform Categorical data into Binary features, and any other relevant columns to
 suitable datatypes
+
 • Any other steps that help you perform better
 
 (b) Apply gradient boosting using the function sklearn.ensemble.GradientBoostingClassifier
 for training the model. You will need to import sklearn, sklearn.ensemble, and
 numpy. Your effort will be focused on predicting whether or not a loan is likely to
 default.
+
 • Get the best test accuracy you can, and show what hyperparameters led to this
 accuracy. Report the precision and recall for each of the models that you built.
+
 • In particular, study the effect of increasing the number of trees in the classifier.
+
 • Compare your final best performance (accuracy, precision, recall) against a simple
 decision tree built using information gain. (You can use sklearn’s inbuilt decision
 tree function for this.)

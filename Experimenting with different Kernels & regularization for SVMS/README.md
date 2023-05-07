@@ -25,6 +25,7 @@ in each of these cases.
 (c) Consider the polynomial kernel K(xn; xm) = (1 + x^Tn xm)^Q, where Q is the degree of
 the polynomial. Comparing Q = 2 with Q = 5, comment whether each of the following
 statements is TRUE or FALSE.
+
 i. When C = 0:0001, training error is higher at Q = 5.
 ii. When C = 0:001, the number of support vectors is lower at Q = 5.
 iii. When C = 0:01, training error is higher at Q = 5.
@@ -44,8 +45,10 @@ accordingly for this problem.
 (a) Standard run: Use all the 6000 training samples from the training set to train the
 model, and test over all test instances, using the linear kernel. Report the train error,
 test error, and number of support vectors.
+
 (b) Kernel variations: In addition to the basic linear kernel, investigate two other standard
 kernels: RBF (a.k.a. Gaussian kernel; set 
- = 0:001), Polynomial kernel (set degree =
-2, coef0 = 1; e.g, (1 + xTx)2). Which kernel yields the lowest training error? Report
+ = 0:001), Polynomial kernel (set degree =2, coef0 = 1; e.g, (1 + xTx)2). 
+ 
+ Which kernel yields the lowest training error? Report
 the train error, test error, and number of support vectors for both these kernels.
